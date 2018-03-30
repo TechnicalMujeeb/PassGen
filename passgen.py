@@ -22,6 +22,11 @@ print ('''%s        __   __
  ▒█▄▄█ █▄▄█ ▀▀█ ▀▀█ ▒█░▄▄ █▀▀ █░░█ 
  ▒█░░░ ▀░░▀ ▀▀▀ ▀▀▀ ▒█▄▄█ ▀▀▀ ▀░░▀ %s\n''' % (red, end))
 
+print ('''%s
+▒█▀▄▀█ █░░█ ░░▀ █▀▀ █▀▀ █▀▀▄ 
+▒█▒█▒█ █░░█ ░░█ █▀▀ █▀▀ █▀▀▄ 
+ █░░▒█ ░▀▀▀ █▄█ ▀▀▀ ▀▀▀ ▀▀▀░ %s \n''' % (green, end)
+       
 name = input('%s Name of a RANDOM person: ' % que).lower()
 choice = input('%s Obsfucate the name? [Y/n] ' % que).lower()
 if choice == 'n':
