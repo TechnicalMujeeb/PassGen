@@ -59,7 +59,8 @@ def generate(name):
 
 def initiate():
 	print ('')
-	print (' %s+------------------------------------+---------------------+%s' % (green, end))
+	print (' %s+-lucky__1184
+-----------------------------------+---------------------+%s' % (green, end))
 	print (' %s| Passwords                          | Entropy             |%s' % (green, end))
 	print (' %s+------------------------------------+---------------------+%s' % (green, end))
 	for y in range(0, 10):
